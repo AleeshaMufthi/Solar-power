@@ -9,50 +9,50 @@ const ShopItems = () => {
     const products = [
   {
     id: 1,
-    name: "2 mooduliga autovarjualune 26x580W koos paigaldusega",
-    price: "10050,00 € ",
+    name: "2-module carport 26x580W with installation",
+    price: "10050,00 ",
     image: product1, 
   },
   {
     id: 2,
-    name: "3 mooduliga autovarjualune 34x580W koos paigaldusega",
-    price: "14000,00 € ",
+    name: "3-module carport 34x580W with installation",
+    price: "14000,00 ",
     image: product2,
   },
   {
     id: 3,
-    name: "4 mooduliga autovarjualune 42x580W koos paigaldusega",
-    price: "15000,00 € ",
+    name: "4-module carport 42x580W with installation",
+    price: "15000,00 ",
     image: product3,
   },
   {
     id: 4,
-    name: "5 mooduliga autovarjualune 50x580W koos paigaldusega",
-    price: "19400,00 € ",
+    name: "5-module carport 50x580W with installation",
+    price: "19400,00 ",
     image: product4,
   },
  {
     id: 1,
-    name: "2 mooduliga autovarjualune 26x580W koos paigaldusega",
-    price: "10050,00 € ",
+    name: "2-module carport 26x580W with installation",
+    price: "10050,00 ",
     image: product1, 
   },
   {
     id: 2,
-    name: "3 mooduliga autovarjualune 34x580W koos paigaldusega",
-    price: "14000,00 € ",
+    name: "3-module carport 34x580W with installation",
+    price: "14000,00 ",
     image: product2,
   },
   {
     id: 3,
-    name: "4 mooduliga autovarjualune 42x580W koos paigaldusega",
-    price: "15000,00 € ",
+    name: "4-module carport 42x580W with installation",
+    price: "15000,00 ",
     image: product3,
   },
   {
     id: 4,
-    name: "5 mooduliga autovarjualune 50x580W koos paigaldusega",
-    price: "19400,00 € ",
+    name: "5-module carport 50x580W with installation",
+    price: "19400,00 ",
     image: product4,
   },
 ];
@@ -64,12 +64,14 @@ const ShopItems = () => {
 
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
         <p className="text-gray-600 text-sm mb-4 md:mb-0">
-          Näitan 1–16 tulemust 57-st
+          Showing 1–16 of 57 results
         </p>
         <select className="border rounded px-3 py-2 text-gray-700">
-          <option>Vaikimisi järjestus</option>
-          <option>Hind: madalast kõrgeni</option>
-          <option>Hind: kõrgest madalani</option>
+          <option>
+Default order</option>
+          <option>Price: low to high</option>
+          <option>
+Price: high to low</option>
         </select>
       </div>
 
@@ -97,7 +99,7 @@ const ShopItems = () => {
 
             {/* Add to Cart */}
             <button className="bg-green-600 text-white font-medium px-6 py-2 rounded hover:bg-green-700">
-              ADD TO CART
+              CONTACT US
             </button>
           </div>
         ))}

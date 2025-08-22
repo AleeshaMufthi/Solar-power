@@ -10,10 +10,10 @@ const CtaSection = () => {
     <div className="mt-10 w-full bg-white py-16">
   {/* Section Title */}
   <p className='uppercase text-center text-green-600 font-semibold mb-4'>
-    Kuidas me töötame?
+    How do we work?
   </p>
   <h2 className="text-4xl font-semibold text-center mb-12">
-    Meie tööprotsess etappidena
+Our work process in stages
   </h2>
 
   {/* Steps */}
@@ -31,7 +31,7 @@ const CtaSection = () => {
         </span>
       </div>
       <p className="mt-4 font-semibold">
-        Projekti eelarvestus ja pakkumise koostamine
+        Project estimation and bid preparation
       </p>
     </div>
 
@@ -48,7 +48,7 @@ const CtaSection = () => {
         </span>
       </div>
       <p className="mt-4 font-semibold">
-        Projekteerimine ning ehitusloa hankimine
+        Design and obtaining a building permit
       </p>
     </div>
 
@@ -64,7 +64,8 @@ const CtaSection = () => {
           03
         </span>
       </div>
-      <p className="mt-4 font-semibold">Toodete transport ning paigaldustööd</p>
+      <p className="mt-4 font-semibold">
+Product transportation and installation work</p>
     </div>
 
     {/* Step 4 */}
@@ -80,7 +81,7 @@ const CtaSection = () => {
         </span>
       </div>
       <p className="mt-4 font-semibold">
-        Kasutusload, järelteenindus ning hooldustööd
+     Operating permits, after-sales service and maintenance work
       </p>
     </div>
   </div>
@@ -89,11 +90,12 @@ const CtaSection = () => {
 {/* Green CTA Section */}
 <div className="w-full bg-green-500 text-white py-12 px-6 text-center">
   <h2 className="text-2xl font-bold mb-2">
-    Kas teil on mõni suurepärane projekt käsil?
+    Do you have any great projects coming up?
   </h2>
-  <p className="mb-6">Laske meil see lõpuni viia!</p>
+  <p className="mb-6">
+Let us finish this!</p>
   <button className="border-2 border-white text-white px-6 py-2 rounded hover:bg-white hover:text-green-600 transition">
-    VÕTA ÜHENDUST
+    CONTACT US
   </button>
 </div>
 

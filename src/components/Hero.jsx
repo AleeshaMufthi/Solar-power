@@ -9,20 +9,20 @@ const slides = [
   {
     id: 1,
     image: image1,
-    title: "Meilt saab kvaliteetse ja hea päikeseelektrijaama",
-    buttonText: "MEIE TOOTED",
+    title: "We can provide a high-quality and good solar power plant",
+    buttonText: "OUR PRODUCTS",
   },
   {
     id: 2,
     image: image2,
-    title: "Päikeseenergia sinu koju ja ettevõttesse",
-    buttonText: "MEIE TOOTED",
+    title: "Solar energy for your home and business",
+    buttonText: "OUR PRODUCTS",
   },
   {
     id: 3,
     image: image3,
-    title: "Roheline energia, puhas tulevik",
-    buttonText: "MEIE TOOTED",
+    title: "Green energy, clean future",
+    buttonText: "OUR PRODUCTS",
   },
 ];
 

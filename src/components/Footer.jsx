@@ -7,88 +7,88 @@ const Footer = () => {
 
     {/* Company Info */}
     <div>
-      <img
+      {/* <img
         src="/logo.png" // Replace with your logo path
         alt="Solar Estonia"
         className="mb-4 w-40"
-      />
+      /> */}
+      <h1 className='text-2xl font-bold text-blue-400'>DAW Power India</h1>
       <p className="text-sm leading-relaxed">
-        Solar Estonia on Eesti energiaettevõte, mis keskendub peamiselt
-        taastuvenergia lahenduste pakkumisele.
+       Daw Power India is an energy company that focuses primarily on providing renewable energy solutions.
       </p>
       <p className="text-sm leading-relaxed mt-4">
-        Ettevõte on tuntud eriliste ja tehniliselt keerulisemate
-        päikeseenergiasüsteemide lahenduste projekteerimise ja ehitamise
-        poolest. Aitame oma klientidel energiatõhusust maksimeerida,
-        vähendades sõltuvust traditsioonilistest energiaallikatest.
+The company is known for designing and building specialized and technically complex
+solar energy system solutions. We help our clients maximize energy efficiency,
+reducing dependence on traditional energy sources.
       </p>
     </div>
 
     {/* Categories */}
     <div>
       <h3 className="text-white font-semibold mb-4 relative">
-        TOOTEKATEGORIAAD
+        PRODUCT CATEGORY
         <span className="absolute left-0 -bottom-1 w-12 h-0.5 bg-green-500"></span>
       </h3>
       <ul className="space-y-2 text-sm">
-        <li>› Akupangad koos inverteriga</li>
-        <li>› Hübriidinverterid</li>
-        <li>› Akupangad</li>
-        <li>› Päikesepaneelide komplektid</li>
-        <li>› Autovarjualused</li>
-        <li>› Tooted koos paigaldusega</li>
-        <li>› Akupangad koos inverteriga – kõik ühes tornid</li>
+        <li>› Battery banks with inverter</li>
+        <li>› Hybrid inverters</li>
+        <li>› Battery banks</li>
+        <li>› Solar panel kits</li>
+        <li>› Carports</li>
+        <li>› Products with installation</li>
+        <li>› Battery banks with inverter – all in one towers</li>
       </ul>
     </div>
 
     {/* Services */}
     <div>
       <h3 className="text-white font-semibold mb-4 relative">
-        MEIE TEENUSED
+        
+OUR SERVICES
         <span className="absolute left-0 -bottom-1 w-12 h-0.5 bg-green-500"></span>
       </h3>
       <ul className="space-y-2 text-sm">
-        <li>› Päikesepaneelide paigaldus viilkatusetele</li>
-        <li>› Päikesepaneelide paigaldus lamekatusetele</li>
-        <li>› Päikesepaneelide paigaldus maapealselt</li>
-        <li>› Päikesepaneelide paigaldus fassaadidele</li>
-        <li>› Päikesepaneelide paigaldus autovarjualusena</li>
-        <li>› Päikesepaneelide paigaldus katusematerjalina</li>
-        <li>› Energia salvestussüsteemid</li>
+        <li>› Installation of solar panels on pitched roofs</li>
+        <li>› Installation of solar panels on flat roofs</li>
+        <li>› Ground-mounted solar panel installation</li>
+        <li>› Installation of solar panels on facades</li>
+        <li>› Installing solar panels as a carport</li>
+        <li>› Installation of solar panels as roofing material</li>
+        <li>› Energy storage systems</li>
       </ul>
     </div>
 
     {/* Contact Info */}
     <div>
       <h3 className="text-white font-semibold mb-4 relative">
-        REKVISIIDIID
+        REQUISITES
         <span className="absolute left-0 -bottom-1 w-12 h-0.5 bg-green-500"></span>
       </h3>
       <ul className="space-y-2 text-sm">
-        <li>Solar Estonia OÜ</li>
-        <li>Registrikood: 12647942</li>
+        <li>DAW Power India</li>
+        <li>Registry code: 12647942</li>
         <li>KMKR nr: EE101716510</li>
-        <li>Telefon: +372 5340 9016</li>
-        <li>E-post: info@solar.ee</li>
+        <li>Phone: +372 5340 9016</li>
+        <li>E-mail: info@dawpowerindia.com</li>
         <li>
-          Aadress: Urda tee 3, Jälgimäe, 76404
+          Address: India, 76404
           <br />
-          Harju maakond, Eesti
+         India
         </li>
       </ul>
       <div className="mt-6">
-        <img
+        {/* <img
           src="/badge.png" // Replace with your badge image path
           alt="Usaldusväärne ettevõte"
           className="w-36"
-        />
+        /> */}
       </div>
     </div>
   </div>
 
   {/* Bottom Copyright */}
   <div className="text-center text-sm text-gray-400 border-t border-gray-700 mt-10 pt-6">
-    Copyright © 2025 Solar Estonia, All Rights Reserved.
+    Copyright © 2025 DAW Power India, All Rights Reserved.
   </div>
 </footer>
 

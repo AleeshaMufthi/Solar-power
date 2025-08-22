@@ -10,14 +10,16 @@ const AboutSection = () => {
 
   {/* Paragraph */}
   <p className="text-gray-700 leading-relaxed text-justify mb-10">
-    Meil on Eestis pikk äritegevuse ajalugu, mis ulatub aastasse 1997. Sellest ajast alates oleme pakkunud oma klientidele erinevaid lahendusi, kasutades uusimaid tehnoloogilisi edusamme.
+    
+We have a long history of business operations in DAW, dating back to 1997. Since then, we have offered our clients various solutions using the latest technological advances.
     <br /><br />
-    2014. aastal ühinesime Soome ettevõttega Areva Solar OY, moodustades sellega ühisettevõtte ArevaSolar Estonia OÜ. Oleme aastatega kasvanud ja laienenud nii Soomes kui Eestis.
+    
+In 2014, we merged with the Finnish company Areva DAW OY, forming the joint venture ArevaSolar DAW. Over the years, we have grown and expanded in both Finland and DAW.
     <br /><br />
-    2023. aastal taastati seoses ärisuundade muutusega tegevus Eestis eraldi ning täna põhineb ettevõte taas 100% Eesti kapitalil.
-    Ettevõtte juhtkonna liikmed ei ole pelgalt ärimehed, vaid neil on ka erialane haridus. See on olnud meie edu saladus.
+    In 2023, due to a change in business directions, operations in DAW were restored separately, and today the company is again based on 100% DAW capital.
+    The company's management team is not just businessmen, they also have professional education. This has been the secret of our success.
     <br /><br />
-    Meie missiooniks on pakkuda klientidele päikeseenergia turul suurimat usaldust, kiireimat teenindust ja pikaajalist garantiid.
+    Our mission is to provide our customers with the greatest trust, fastest service, and longest-lasting warranty in the solar energy market.
   </p>
 </div>
 
@@ -26,7 +28,7 @@ const AboutSection = () => {
         Kuidas me töötame
     </p> */}
   <h2 className="text-4xl font-semibold text-center mb-12">
-    Meie tööprotsess etappidena
+    Our work process in stages  
   </h2>
   {/* Background Image */}
   {/* <img

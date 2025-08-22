@@ -11,10 +11,10 @@ import Planning from '../components/Planning'
 import Footer from '../components/Footer'
 
 const cards = [
-  { id: 1, icon: <Sun />, title: "Päikeseenergia" },
-  { id: 2, icon: <Zap />, title: "Energia Sääst" },
-  { id: 3, icon: <Battery />, title: "Akulahendused" },
-  { id: 4, icon: <WindIcon />, title: "Kodulahendused" },
+  { id: 1, icon: <Sun />, title: "Solar energy" },
+  { id: 2, icon: <Zap />, title: "Energy Saving" },
+  { id: 3, icon: <Battery />, title: "Battery solutions" },
+  { id: 4, icon: <WindIcon />, title: "Home solutions" },
 ];
 
 const Home = () => {

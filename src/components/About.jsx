@@ -10,17 +10,18 @@ export default function About() {
         {/* Left Text */}
         <div className="pl-40">
           <p className="text-green-600 font-semibold uppercase mb-3">
-            Kes me oleme
+            Who we are
           </p>
           <h2 className="text-4xl md:text-4xl font-bold leading-snug mb-6">
-            Hoiame loodust ja kasutame koos taastuvenergiat
+           
+Let's protect nature and use renewable energy together
           </h2>
           <ul className="space-y-4 text-lg mb-8">
             {[
-              "Toodame enda hoonele vajaliku energia",
-              "Oleme sõltumatud kõikuvatest energiahindadest",
-              "Kasutame akulahendusi elektrivarustuskindluse ning hinnalae tagamiseks",
-              "Investeerime tulevikku ja hoiame raha kokku",
+              "We produce the energy we need for our own building",
+              "We are independent of fluctuating energy prices",
+              "We use battery solutions to ensure security of electricity supply and price ceiling",
+              "We invest in the future and save money",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-2 text-gray-700">
                 <Check className="text-green-600 font-extrabold w-6 h-6 mt-1" />
@@ -29,7 +30,7 @@ export default function About() {
             ))}
           </ul>
           <button className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-4 rounded">
-            LOE LÄHEMALT
+            READ MORE
           </button>
         </div>
 
@@ -45,15 +46,15 @@ export default function About() {
         {/* Right Stats */}
         <div className="space-y-10">
           {[
-            { number: "350", text: "rahuloleva kliendi" },
-            { number: "15", text: "aasta kogemust solaaride alal" },
-            { number: "27", text: "aastase ajalooga ettevõte" },
+            { number: "350", text: "A satisfied customer" },
+            { number: "15", text: "Years of experience in solar systems" },
+            { number: "27", text: "A company with a year-long history" },
           ].map((stat, i) => (
             <div key={i} className="flex items-start gap-4">
               <Sun className="mt-20 text-green-600 w-8 h-8" />
               <div>
                 <p className="mt-20 text-2xl font-bold text-gray-900">
-                  üle {stat.number}.
+                 over {stat.number}.
                 </p>
                 <p className="text-gray-600">{stat.text}</p>
               </div>

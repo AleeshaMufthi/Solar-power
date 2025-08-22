@@ -31,7 +31,7 @@ const TopBar = () => {
         }`}
       >
         <div className="max-w-8xl text-lg mx-auto flex justify-between items-center px-4 py-3">
-          <span>Call: +372 5340 9016 / Email: info@solar.ee</span>
+          <span>Call: +91 000000000 / Email: info@dawpowerindia.com</span>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const TopBar = () => {
       <div className="bg-white shadow transition-all duration-500">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-6">
           {/* Logo */}
-          <div className="text-2xl font-bold text-blue-400">SolarEnergy</div>
+          <div className="text-2xl font-bold text-blue-400">DAWPowerIndia</div>
 
           {/* Menu Items */}
           <nav>

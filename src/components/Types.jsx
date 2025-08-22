@@ -10,48 +10,48 @@ import image6 from '../assets/set6.jpg'
 const installationTypes = [
   {
     id: 1,
-    title: "Päikesepaneelide paigaldus viilkatusetele",
-    subtitle: "PAIGALDUSVIIS",
-    description: "Kõige tavalisem paigaldusviis maja või hoone viilkatusetele.",
+    title: "Installation of solar panels on pitched roofs",
+    subtitle: "INSTALLATION METHOD",
+    description: "The most common INSTALLATION METHOD for gable roofs of a house or building.",
     image: image1,
     link: "#",
   },
   {
     id: 2,
-    title: "Päikesepaneelide paigaldus lamekatustele",
-    subtitle: "PAIGALDUSVIIS",
-    description: "Liimitav lamekatuse lahendus päikesepaneelidele",
+    title: "Installation of solar panels on flat roofs",
+    subtitle: "INSTALLATION METHOD",
+    description: "Adhesive flat roof solution for solar panels",
     image: image2,
     link: "#",
   },
   {
     id: 3,
-    title: "Päikesepaneelide paigaldus maapealselt",
-    subtitle: "PAIGALDUSVIIS",
+    title: "Ground-mounted solar panel installation",
+    subtitle: "INSTALLATION METHOD",
     description: "Most common way of installing ground mounted solar panels",
     image: image3,
     link: "#",
   },
     {
     id: 4,
-    title: "Päikesepaneelide paigaldus viilkatusetele",
-    subtitle: "PAIGALDUSVIIS",
-    description: "Kõige tavalisem paigaldusviis maja või hoone viilkatusetele.",
+    title: "Installation of solar panels on pitched roofs",
+    subtitle: "INSTALLATION METHOD",
+    description: "The most common INSTALLATION METHOD for gable roofs of a house or building.",
     image: image4,
     link: "#",
   },
   {
     id: 5,
-    title: "Päikesepaneelide paigaldus lamekatustele",
-    subtitle: "PAIGALDUSVIIS",
-    description: "Liimitav lamekatuse lahendus päikesepaneelidele",
+    title: "Installation of solar panels on flat roofs",
+    subtitle: "INSTALLATION METHOD",
+    description: "Adhesive flat roof solution for solar panels",
     image: image5,
     link: "#",
   },
   {
     id: 6,
-    title: "Päikesepaneelide paigaldus maapealselt",
-    subtitle: "PAIGALDUSVIIS",
+    title: "Ground-mounted solar panel installation",
+    subtitle: "INSTALLATION METHOD",
     description: "Most common way of installing ground mounted solar panels",
     image: image6,
     link: "#",
@@ -62,9 +62,10 @@ export default function Types() {
   return (
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <p className="text-green-600 mb-5 font-semibold uppercase">Päikesepaneelid ja lahendused</p>
+        <p className="text-green-600 mb-5 font-semibold uppercase">
+Solar panels and solutions</p>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-          Meie pakutavad paigaldusviisid
+          Installation methods we offer
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

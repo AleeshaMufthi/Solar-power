@@ -1,5 +1,5 @@
 import React from 'react'
-import ceo from '../assets/ceo.jpeg'
+import ceo from '../assets/userIcon.jpg'
 
 const Review = () => {
   return (
@@ -9,13 +9,14 @@ const Review = () => {
     {/* Left Side */}
     <div>
       <p className="text-green-600 font-semibold uppercase mb-2">
-        Klientide tagasiside
+       Customer feedback
       </p>
       <h2 className="text-3xl font-bold mb-6">
-        Mida kliendid meist räägivad?
+        What do customers say about us?
       </h2>
       <button className="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 transition">
-        MEIE TEENUSED
+        
+OUR SERVICES
       </button>
     </div>
 
@@ -39,12 +40,12 @@ const Review = () => {
 
         {/* Feedback */}
         <p className="text-gray-600 mb-4">
-          Oleme väga pikalt koostööd teinud. Pakuvad võtmed kätte lahendusi koos kõikide vajalike lubadega.
-          Pakutavad tooted on alati paremad ja sobivad meie põhjamaade kliimasse. Soovitan julgelt!
+          We have been cooperating for a very long time. They offer turnkey solutions with all necessary permits.
+The products offered are always better and suitable for our Nordic climate. I highly recommend!
         </p>
 
         {/* Author */}
-        <p className="font-bold">Arno Kirikmäe</p>
+        <p className="font-bold">Arno Kirik</p>
         <p className="text-gray-400 text-sm uppercase">CEO of Simon OÜ</p>
       </div>
 
